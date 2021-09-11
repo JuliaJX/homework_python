@@ -7,10 +7,9 @@ import string
 s=string.ascii_lowercase
 def show(func):
     def new_func(s):
-        print (func.__name__)
-        print (func.__doc__)  
+        print ()
+        print ()  
         result = new_func(list[s])
         print ("Result:",result)
         return result
     return new_func
-

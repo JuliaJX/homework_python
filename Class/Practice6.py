@@ -69,11 +69,11 @@
 # set_1.remove(1)
 # print(set_1)
 
-# s=[1,2,2,2,3,4,4,5,6] 
-# def unique(s):
-#     return list(set(s))
+s=[1,2,2,2,3,4,4,5,6] 
+def unique(s):
+     return list(set(s))
 
-# print(unique(s))
+print(unique(s))
 
 # Я сделала так:
 # s=[1,2,3,4,4,4,4,5,6,6,6]
